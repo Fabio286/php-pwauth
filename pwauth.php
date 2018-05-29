@@ -1,10 +1,14 @@
 <?php
-//PWAuth-Driver
- 
-class PWAuth{
+/** PWAuth-Driver */
+ class PWAuth{
  
     private $pwauthPath = '/usr/sbin/pwauth';
-    
+	 
+	 /** Esegue l'autenticazione e restituisce un array con i dati relativi all'utente in caso positivo, o false in caso negativo
+	  * 
+	  * @param string $external_uid
+	  * @param string $external_passwd
+	  */
     public function Authenticate($external_uid, $external_passwd) {
 		// Start
 		$handle = popen($this->pwauthPath, 'w');
