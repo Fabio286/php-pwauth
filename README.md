@@ -1,7 +1,7 @@
 # Driver PHP per autenticazione PAM
 
 ## Requisiti
-I driver per l'autenticazione PAM si basano sul passaggio dello username e della password all'applicazione **Pwauth**, pertanto necessitano di quest'ultimo installato per funzionare.
+I driver per l'autenticazione PAM si basano sul passaggio dello username e della password all'applicazione **Pwauth**, pertanto necessitano di quest'ultima installata per funzionare.
 
 E' possibile installare Pwauth via repository lanciando `sudo apt-get install pwauth` o tramite sorgenti.  
 
