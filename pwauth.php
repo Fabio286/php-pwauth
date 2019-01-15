@@ -4,7 +4,7 @@
  
     private $pwauthPath = '/usr/sbin/pwauth';
 	 
-	 /** Esegue l'autenticazione e restituisce un array con i dati relativi all'utente in caso positivo, o false in caso negativo
+	 /** Performs authentication and returns an array with user data if positive, or false if not
 	  * 
 	  * @param string $external_uid
 	  * @param string $external_passwd
@@ -22,7 +22,6 @@
 				return false;
 		}
 
-		// Chiude e riceve risposta
 		$result = pclose($handle);
 		
 		if($result==0) {// Login OK
@@ -62,7 +61,7 @@
 
 /*// Test
 $pwauth = new PWAuth;
-$login = $pwauth->Authenticate('fabio', 'password');
+$login = $pwauth->Authenticate('user', 'password');
 echo '<pre>';
 print_r($login);
 echo '</pre>';*/
