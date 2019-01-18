@@ -6,7 +6,7 @@ PAM authentication drivers works by passing username and password to the applica
 
 It's possible to install this application by running  `sudo apt-get install pwauth` or via sources.  
 
-Pwauth sources as available at:  
+Pwauth sources available at:  
 https://github.com/phokz/pwauth/tree/master/pwauth
 
 ## Usage
