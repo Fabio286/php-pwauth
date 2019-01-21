@@ -1,0 +1,7 @@
+{
+   "name": "fabio286/php-pwauth",
+   "description": "A pwauth driver in PHP ",
+   "require": {
+       "php": "^5.3"
+   }
+}
